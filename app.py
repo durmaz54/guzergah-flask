@@ -28,7 +28,7 @@ def flutter():
     return "selam"
 
 def startServer():
-    app.run(use_reloader = False,threaded = True)
+    app.run(use_reloader = False,threaded = True, host="0.0.0.0")
 
 def loop():
     i = 1
